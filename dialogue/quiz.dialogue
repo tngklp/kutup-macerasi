@@ -1,0 +1,79 @@
+~ start
+
+Elif: Bütün madenleri bulduk!
+Elif: Bulduğumuz madenler hakkında küçük bir test yapmak istersen yanıma gelip [E] tuşuna basabilirsin.
+
+=> END
+
+
+~ quiz
+
+Elif: Sembolü Fe olan element hangisidir?
+- Demir
+	Elif: Doğru cevap!
+	set right += 1
+- Gümüş
+	Elif: Yanlış cevap!
+	set wrong += 1
+- Bakır
+	Elif: Yanlış cevap!
+	set wrong += 1
+
+Elif: Yumuşak, dövülebilir ve şekil vermesi kolay olan metal hangisidir?
+- Demir
+	Elif: Yanlış cevap!
+	set wrong += 1
+- Gümüş
+	Elif: Yanlış cevap!
+	set wrong += 1
+- Bakır
+	Elif: Doğru cevap!
+	set right += 1
+
+Elif: Madeni para, fotoğraf sektörü ve boya endüstrisinde kullanılan metal hangisidir?
+- Demir
+	Elif: Yanlış cevap!
+	set wrong += 1
+- Gümüş
+	Elif: Doğru cevap!
+	set right += 1
+- Bakır
+	Elif: Yanlış cevap!
+	set wrong += 1
+
+Elif: En yüksek iletkenliğe sahip metal hangisidir?
+- Demir
+	Elif: Yanlış cevap!
+	set wrong += 1
+- Gümüş
+	Elif: Doğru cevap!
+	set right += 1
+- Bakır
+	Elif: Yanlış cevap!
+	set wrong += 1
+
+Elif: Mıknatıs yapımı, inşaat sektörü, yalıtım ve beyaz eşyalarda kullanılan metal hangisidir?
+- Demir
+	Elif: Doğru cevap!
+	set right += 1
+- Gümüş
+	Elif: Yanlış cevap!
+	set wrong += 1
+- Bakır
+	Elif: Yanlış cevap!
+	set wrong += 1
+
+Elif: Simgesi Cu olan metal hangisidir?
+- Demir
+	Elif: Yanlış cevap!
+	set wrong += 1
+- Gümüş
+	Elif: Yanlış cevap!
+	set wrong += 1
+- Bakır
+	Elif: Doğru cevap!
+	set right += 1
+
+Elif: Test bitti!
+Elif: {{question}} sorudan {{right}} tanesini doğru yaptın, {{wrong}} yanlışın var.
+=> END

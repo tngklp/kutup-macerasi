@@ -2,16 +2,48 @@
 
 Ahmet: Burada bir şey buldum!
 Ahmet: İşimize yarayacak bir şeye benziyor.
+Ahmet: Bu madenimizin adı ...[wait=0.5] demir!
+Ahmet: Demirin özelliklerini söyleyebilir misin Elif?
+Elif: Demirin sembolü Fe, atom numarası 26'dır. Periyodik tabloda 4. periyotta 8B grubundadır.
+Elif: Dünya üzerinde üretilen metallerin ağırlıkça yüzde 95'ini oluşturmaktadır.
+Elif: Mıknatıs yapımı, inşaat sektörü, yalıtım ve beyaz eşyalar başlıca kullanım alanlarıdır.
 
 => END
 
 
 ~ silver
 
+Ahmet: Sanırım bir şey buldum!
+Ahmet: Bu hangi maden bakabilir misin?
+Elif: Bu madenimizin adı ...[wait=0.5] gümüş!
+Elif: Gümüşün simgesi Ag, atom numarası 47'dir. Periyodik tabloda 5. periyotta 8B grubunda yer alır.
+Elif: En yüksek iletkenliğe sahip metaldir.
+Elif: Madeni para, fotoğraf sektörü ve boya endüstrisi başlıca kullanım alanlarıdır.
+
 => END
 
 
 ~ copper
 
+Ahmet: Burada bir şey var!
+Ahmet: Adı ne acaba?
+Elif: Bu madenimizin adı ...[wait=0.5] bakır!
+Elif: Bakırın simgesi Cu, atom numarası 29'dir. Periyodik tabloda 4. periyotta 1B grubunda yer alır.
+Elif: Yumuşak, dövülebilir ve şekil vermesi kolay bir metaldir.
+Elif: Elektrik-elektronik, ev aletleri ve kuyumculuk başlıca kullanım alanlarıdır.
+
 => END
 
+
+~ empty
+
+Ahmet: Burada bir şey bulamadım.
+
+=> END
+
+
+~ searched
+
+Ahmet: Burayı zaten araştırdım.
+
+=> END
