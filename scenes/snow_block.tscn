@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bk1twaag4708o"]
+
+[ext_resource type="Texture2D" uid="uid://b0g2bs38icpw" path="res://assets/tilesets/snow_block.png" id="1_r3xva"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3goh4"]
+size = Vector2(16, 14)
+
+[node name="Snow Block" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_r3xva")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_3goh4")
